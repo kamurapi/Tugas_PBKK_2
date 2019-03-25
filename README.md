@@ -17,5 +17,5 @@
 ![2](img/form.PNG)
 
 
-## C. Tampilan Output Data
+## D. Tampilan Output Data
 ![3](img/hasil.PNG)
