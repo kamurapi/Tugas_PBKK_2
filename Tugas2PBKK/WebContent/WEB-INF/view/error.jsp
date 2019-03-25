@@ -13,6 +13,6 @@
 <body>
 	<h1 style ="color: white; font-size: 70px; text-align: center;vertical-align: middle;">WRONG INPUT!!!</h1>
 	
-	<button> Back</button>
+	<a class="btn btn-secondary mt-3" href="home">Back</a>
 </body>
 </html>
