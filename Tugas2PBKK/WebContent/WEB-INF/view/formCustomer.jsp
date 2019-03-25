@@ -10,31 +10,36 @@
 	<link rel="stylesheet" href="<c:url value="/resources/css/style.css"/>">
 <title>Tugas2 PBKK</title>
 </head>
-<body style="text-align: center; vertical-align: middle;">
-	<h1 style ="color: white; font-size: 70px;">Enter Hero's Details</h1>
-        <form:form method="POST"
-          action="/Tugas2_Spring_MVC/addCustomer" modelAttribute="customer">
-             <table>
-             	<tr>
-             		<td style="font-size: 35px; color: white;"><form:label path="namaCustomer"></form:label>Nama Customer</td>
-             		<td><form:input path="namaCustomer"/></td>
-             	</tr>
-             	<tr>
-             		<td style="font-size: 35px; color: white;"><form:label path="idCustomer"></form:label>ID</td>
-             		<td><form:input path="idCustomer"/></td>
-             	</tr>
-             	<tr>
-             		<td style="font-size: 35px; color: white;"><form:label path="emailCustomer"></form:label>Email</td>
-             		<td><form:input path="emailCustomer"/></td>
-             	</tr>
-             	<tr>
-             		<td style="font-size: 35px; color: white;"><form:label path="nohpCustomer"></form:label>No HP</td>
-             		<td><form:input path="nohpCustomer"/></td>
-             	</tr>
-                <tr>
-                    <td><input type="submit" value="Submit"/></td>
-                </tr>
-            </table>
-        </form:form>
+<body>
+	<div class="container pt-5">
+		<div class="row">
+				<div class="col text-center">
+					<h1 style ="color: white; font-size: 70px;">This Customer Data</h1>
+			Â Â Â Â Â Â Â Â <form:form method="POST" action="/Tugas2PBKK/addCustomer" modelAttribute="customer">
+			             <table>
+			             	<tr>
+			             		<td style="font-size: 35px; color: white;"><form:label path="id"></form:label>ID</td>
+			             		<td><form:input path="id"/></td>
+			             	</tr>
+			             	<tr>
+			             		<td style="font-size: 35px; color: white;"><form:label path="name"></form:label>Nama</td>
+			             		<td><form:input path="name"/></td>
+			             	</tr>
+			             	<tr>
+			             		<td style="font-size: 35px; color: white;"><form:label path="email"></form:label>Email</td>
+			             		<td><form:input path="email"/></td>
+			             	</tr>
+			             	<tr>
+			             		<td style="font-size: 35px; color: white;"><form:label path="nohp"></form:label>No HP</td>
+			             		<td><form:input path="nohp"/></td>
+			             	</tr>
+			                <tr>
+			                    <td><input type="submit" class="btn btn-secondary mt-3" value="Submit"/></td>
+			                </tr>
+			            </table>
+			        </form:form>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
