@@ -11,27 +11,35 @@
 <title>Tugas 2 PBKK</title>
 </head>
 <body>
-	<h1 style ="color: white; font-size: 70px; text-align: center;vertical-align: middle;">Customer Detail</h1>
-	<table>
-		<tr style="align-content: center;">
-			<td style="font-size: 35px; color: white;">Nama	:</td>
-			<td style="font-size: 35px; color: white;">${namaCustomer}</td>
-		</tr>
-		<tr>
-			<td style="font-size: 35px; color: white;">ID:</td>
-			<td style="font-size: 35px; color: white;">${idCustomer}</td>
-		</tr>
-		<tr>
-			<td style="font-size: 35px; color: white;">Email:</td>
-			<td style="font-size: 35px; color: white;">${emailCustomer}</td>
-		</tr>
-		<tr>
-			<td style="font-size: 35px; color: white;">No Hp:</td>
-			<td style="font-size: 35px; color: white;">${nohpCustomer}</td>
-		</tr>
-	</table>
-	<button style="align-content: center;"><a href="home">BACK</a>
-	</button>
-	
+	<div class="container pt-5" style=" vertical-align: middle">
+		<div class="row">
+				<div class="col">
+					<h1 style ="color: white; font-size: 70px; text-align: center;vertical-align: middle;">Customer Detail</h1>
+					<table style="vertical-align: middle;font-size: 35px; color: white;">
+						<tr style="align-content: center; ">
+							<td>ID</td>
+							<td>:</td>
+							<td>${id}</td>
+						</tr>
+						<tr>
+							<td>Nama</td>
+							<td>:</td>
+							<td>${nama}</td>
+						</tr>
+						<tr>
+							<td>Email</td>
+							<td>:</td>
+							<td>${email}</td>
+						</tr>
+						<tr>
+							<td>No Hp</td>
+							<td>:</td>
+							<td>${nohp}</td>
+						</tr>
+					</table>
+					<a class="btn btn-secondary mt-3" href="home">Back</a>
+				</div>
+		</div>
+	</div>
 </body>
 </html>
