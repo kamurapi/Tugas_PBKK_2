@@ -9,7 +9,13 @@
 - jika data yang diinputkan sudah benar maka form akan menuju ke laman detail Customer
 
 
-## B. Tampilan Form Entry
+## B. Tampilan HomePage
+![1](img/homepage.PNG)
 
 
-## C. Tampilan Hasil Data Entry
+## C. Tampilan Input Data
+![2](img/form.PNG)
+
+
+## C. Tampilan Output Data
+![3](img/hasil.PNG)
